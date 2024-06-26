@@ -23,6 +23,7 @@ class Spring6DiApplicationTests {
 
 	@Test
 	void testGetControllerFromContext() {
+		System.out.println("In testGetControllerFromContext method");
 		MyController controller = applicationContext.getBean(MyController.class);
 		System.out.println(controller.sayHello());
 	}
