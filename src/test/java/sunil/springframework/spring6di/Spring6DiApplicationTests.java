@@ -17,6 +17,7 @@ class Spring6DiApplicationTests {
 
 	@Test
 	void testAutowireOfMyController() {
+		System.out.println("In testAutowireOfMyController method");
 		System.out.println(controller.sayHello());
 	}
 
